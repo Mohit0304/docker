@@ -1,0 +1,10 @@
+Docker is a platform that enables developers to build, package, and deploy applications as lightweight, portable containers. These containers encapsulate everything needed to run the application, including the code, runtime, libraries, and dependencies.
+
+Here's a breakdown of the key components and concepts of Docker:
+
+Containerization: Docker uses containerization technology to create containers, which are isolated environments that run applications. Containers are lightweight, as they share the host system's kernel but have their own filesystem, processes, and networking.
+Images: Docker images are read-only templates that contain the application code, dependencies, and configurations needed to run the application. Images are used to create containers. They are built using Dockerfiles, which specify the instructions for assembling the image.
+Dockerfile: A Dockerfile is a text file that contains a series of instructions for building a Docker image. These instructions define the environment and configuration of the image, such as base image, dependencies installation, environment variables, and commands to run.
+Registry: Docker Hub is the default public registry where Docker images are stored and shared. It hosts a vast collection of pre-built images that can be used as base images for building custom applications. Organizations can also set up private registries to store and manage their own Docker images.
+Containers: Containers are instances of Docker images that are running as isolated processes on a host system. They provide consistency across different environments by packaging the application and its dependencies together. Containers can be started, stopped, moved, and deleted independently of each other.
+Orchestration: Docker Swarm and Kubernetes are popular orchestration tools used to manage and scale containerized applications. They automate the deployment, scaling, and management of containers across multiple hosts, ensuring high availability and reliability.
